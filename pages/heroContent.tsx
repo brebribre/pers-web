@@ -17,13 +17,13 @@ function HeroContent(props: any) {
                 <p className="mt-4 text-1xl text-gray-400 font-semibold max-w-sm ">I craft digital experiences and empowers the web through design, code, and innovation.</p>
 
                 <div className="mt-4 flex items-center justify-left gap-x-6">
-                    <a href="https://www.linkedin.com/in/bryan-alvin-b652581b7/" className="text-sm font-semibold leading-6 text-lime-200">
+                    <a href="https://www.linkedin.com/in/bryan-alvin-b652581b7/" className="z-50 text-sm font-semibold leading-6 text-lime-200">
                         Linkedin <span aria-hidden="true">→</span>
                     </a>
-                    <a href="https://www.instagram.com/bryan.alvinn/" className="text-sm font-semibold leading-6 text-lime-200">
+                    <a href="https://www.instagram.com/bryan.alvinn/" className="z-50 text-sm font-semibold leading-6 text-lime-200">
                         Instagram <span aria-hidden="true">→</span>
                     </a>
-                    <a href="https://github.com/brebribre" className="text-sm font-semibold leading-6 text-lime-200">
+                    <a href="https://github.com/brebribre" className="z-50 text-sm font-semibold leading-6 text-lime-200">
                         GitHub <span aria-hidden="true">→</span>
                     </a>
                 </div>
