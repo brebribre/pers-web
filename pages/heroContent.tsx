@@ -10,18 +10,16 @@ const links = [
 
 
 function HeroContent(props: any) {
-
-
     return (<div>
-        <div className="mx-auto max-w-2xl py-20 sm:py-20 lg:py-20 md:fixed md:ml-20">
+        <div className="max-w-2xl pt-20 sm:pt-20 lg:py-20 md:fixed md:ml-10">
 
             <div className="text-left">
-                <h1 className="text-7xl font-bold tracking-tight text-zinc-200 lg:text-9xl">
+                <h1 className="text-6xl font-bold tracking-tight text-zinc-200 xl:text-9xl lg:text-8xl md:text-7xl">
                     Bryan Alvin
                 </h1>
-                <p className="mt-3 text-3xl font-thin text-gray-400 max-w-sm ">I am a Web Developer.</p>
-                <p className="mt-3 text-1xl text-gray-400 max-w-sm ">I craft digital experiences and empowers the web through design, code, and innovation.</p>
-             
+                <p className="mt-4 text-3xl font-bold text-gray-300 max-w-sm ">I am a Web Developer.</p>
+                <p className="mt-4 text-1xl text-gray-400 font-semibold max-w-sm ">I craft digital experiences and empowers the web through design, code, and innovation.</p>
+
                 <div className="mt-4 flex items-center justify-left gap-x-6">
                     <a href="#" className="text-sm font-semibold leading-6 text-lime-200">
                         Linkedin <span aria-hidden="true">→</span>
@@ -33,7 +31,11 @@ function HeroContent(props: any) {
                         GitHub <span aria-hidden="true">→</span>
                     </a>
                 </div>
-         
+                <div className="lg:fixed lg:bottom-10 lg:block hidden max-w-sm">
+                    <p className="text-1xl mt-10 text-blue-300 opacity-50 font-light">This page are created using Next.js, styled with Tailwind.css and deployed with Vercel.</p>
+                    <p className="text-1xl mt-4 text-blue-300 opacity-50 font-bold ">Copyright © 2023 Bryan Alvin</p>
+                </div>
+                
             </div>
         </div>
 
