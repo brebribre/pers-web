@@ -21,7 +21,7 @@ function ContentCard(props:CardValue){
             <p className="font-semibold text-1xl mb-2 tracking-wide text-gray-400">{props.subheader}</p>
             <p className="text-1xl font-normal text-gray-400 tracking-wide mb-2">{props.desc}</p>
             <div className=""> 
-                {props.tags.map((item, index) => (
+                {props.tags?.map((item, index) => (
                     <Tag key={index} desc={item} />
                 ))}
             </div>

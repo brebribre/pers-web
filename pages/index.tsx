@@ -84,6 +84,8 @@ export default function Home() {
           href="/images/izy.webp"
           desc="Portfolio website for IZY, a company specializing in automotive accessories."
           tags = {["HTML", "CSS", "Javascript"]}
+          link ="https://www.izy-automotive.id/"
+          additional = "Visit Website →"
         />
         <ProjectCard
           time="2022"
@@ -91,6 +93,8 @@ export default function Home() {
           header="Enos Digital"
           desc="Portfolio website for Enos Digital, a company specializing in digital printing."
           tags = {["HTML", "CSS", "Javascript"]}
+          link ="https://enosdigital.id/"
+          additional = "Visit Website →"
         />
         <ProjectCard
           time="2022"
@@ -98,6 +102,8 @@ export default function Home() {
           header="Indonesia Covid tracker"
           desc="Tracks growth of covid-19 in Indonesia and other countries"
           tags = {["HTML", "CSS", "JS", "API"]}
+          link = "https://brebribre.github.io/Covid-Tracker/"
+          additional = "Visit Website →"
         />
         <Footer/>
       </div>
