@@ -14,7 +14,7 @@ function HeroContent(props: any) {
         <div className="max-w-2xl pt-20 sm:pt-20 lg:py-20 md:fixed md:ml-10">
 
             <div className="text-left">
-                <h1 className="text-6xl font-bold tracking-tight text-zinc-200 xl:text-9xl lg:text-8xl md:text-7xl">
+                <h1 className="text-6xl font-bold tracking-tight text-zinc-200 xl:text-9xl lg:text-7xl md:text-7xl">
                     Bryan Alvin
                 </h1>
                 <p className="mt-4 text-3xl font-bold text-gray-300 max-w-sm ">I am a Web Developer.</p>

@@ -11,8 +11,8 @@ import ProjectCard from './projectCard'
 export default function Home() {
   return (
     <div className="grid md:grid-cols-2 sm:grid-cols-1 bg-gradient-to-t from-slate-900 via-purple-900 to-slate-950">
-      <div className="mx-4 lg:mx-8"><Hero /></div>
-      <div className="ml-4">
+      <div className="px-4 lg:mx-8"><Hero /></div>
+      <div className="px-4">
         <Background/>
 
         <Title text="Education"/>
