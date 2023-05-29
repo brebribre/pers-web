@@ -12,7 +12,7 @@ interface CardValue {
 function ContentCard(props:CardValue){
 
     return (
-        <div className="mb-12 xl:w-2/3 grid grid-cols-1 md:grid-cols-8 rounded-lg transform transition duration-300 md:hover:scale-110 hover:opacity-50 lg:hover:scale-110">
+        <div className="mb-6 xl:w-2/3 grid grid-cols-1 md:grid-cols-8 rounded-lg transform transition duration-300 md:hover:scale-110 hover:opacity-50 lg:hover:scale-110">
             <div className="col-span-2 ">
             <p className="mt-3 font-semibold text-1xl text-gray-400 mr-3">{props.time}</p>
             </div>

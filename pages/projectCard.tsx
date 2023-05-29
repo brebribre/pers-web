@@ -13,7 +13,6 @@ interface CardValue {
 function ProjectCard(props:CardValue){
 
     return (
-       
             <div className="mb-12 xl:w-2/3 grid grid-cols-1 md:grid-cols-8 rounded-lg transform transition duration-300 hover:opacity-50 md:hover:scale-110 lg:hover:scale-110">
             <div className="col-span-2 ">
             <p className="mt-3 font-semibold text-1xl text-gray-400">{props.time}</p>
@@ -21,7 +20,7 @@ function ProjectCard(props:CardValue){
             <div className="col-span-6 mt-3 mr-4">
             
                 <div className="border border-blue-400 rounded-lg shadow sm:max-w-lg">
-                    <a href="#">
+                    <a href={props.link}>
                         <Image src={props.href} alt={props.header} width={500} height={300}/>
                     </a>
                     <div className="p-5">
