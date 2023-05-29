@@ -19,6 +19,7 @@ function HeroContent(props: any) {
                 <div className="mt-4 flex items-center justify-left gap-x-6">
                     <a href="https://www.linkedin.com/in/bryan-alvin-b652581b7/" className="z-50 text-sm font-semibold leading-6 text-lime-200">
                         Linkedin <span aria-hidden="true">→</span>
+                        
                     </a>
                     <a href="https://www.instagram.com/bryan.alvinn/" className="z-50 text-sm font-semibold leading-6 text-lime-200">
                         Instagram <span aria-hidden="true">→</span>
