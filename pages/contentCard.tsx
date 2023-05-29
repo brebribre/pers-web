@@ -29,6 +29,7 @@ function ContentCard(props:CardValue){
             <p className="mt-3">
                     <a href={props.link} className="text-sm font-semibold leading-6 text-lime-200">
                         {props.additional}
+                        
                     </a>
             </p>
             
