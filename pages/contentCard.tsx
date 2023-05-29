@@ -5,6 +5,7 @@ interface CardValue {
     desc: string;
     tags: string[];
     additional: string;
+    link: string;
   }
 
   import Tag from "./tag";
@@ -26,7 +27,7 @@ function ContentCard(props:CardValue){
                 ))}
             </div>
             <p className="mt-3">
-                    <a href="#" className="text-sm font-semibold leading-6 text-lime-200">
+                    <a href={props.link} className="text-sm font-semibold leading-6 text-lime-200">
                         {props.additional}
                     </a>
             </p>

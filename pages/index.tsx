@@ -23,6 +23,7 @@ export default function Home() {
           desc = "With application subject in business administration."
           tags = {["SQL", "Java", "C", "OOP"]}
           additional = ""
+          link = ""
         />
         <ContentCard
           time = "2017 - 2020"
@@ -31,6 +32,7 @@ export default function Home() {
           desc = ""
           tags = {["Jakarta","Indonesia"]}
           additional = ""
+          link = ""
         />
 
         <Title text="Experience"/>
@@ -41,6 +43,7 @@ export default function Home() {
           desc = "Responsible for designing, developing, and launching websites for the company."
           tags = {["HTML", "CSS", "Javascript"]}
           additional = ""
+          link = ""
         />
 
         <Title text="Organization"/>
@@ -51,6 +54,7 @@ export default function Home() {
           desc = "TUM.ai is Germany’s leading student initiative around AI about which we educate, connect and run projects and events."
           tags = {["Munich", "Germany"]}
           additional = ""
+          link = ""
         />
         <ContentCard
           time = "2017 - 2019"
@@ -59,6 +63,7 @@ export default function Home() {
           desc = "Equipment and logistics coordinator for one of the most prestigious school event in Jakarta"
           tags = {["Jakarta", "Indonesia", "Leadership", "Teamwork"]}
           additional = ""
+          link = ""
         />
         <Title text="Certification"/>
         <ContentCard
@@ -68,6 +73,7 @@ export default function Home() {
           desc = "Gives in depth course for topics on Full-Stack Web Development."
           tags = {["Node", "React", "MongoDB", "SQL"]}
           additional = "See Certificate →"
+          link = "https://www.udemy.com/certificate/UC-1878d032-091d-47ca-b0d5-f72d6c71b488/"
         />
         <ContentCard
           time = "2021"
@@ -76,6 +82,7 @@ export default function Home() {
           desc = "Gives in depth course for topics on Full-Stack Web Development."
           tags = {["Java", "OOP"]}
           additional = "See Certificate →"
+          link = "https://courses.edx.org/certificates/13a1e14438e24b1cbef45688db0567b5"
         />
         <Title text="Projects"/>
         <ProjectCard
