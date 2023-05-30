@@ -21,7 +21,7 @@ function ProjectCard(props:CardValue){
             
                 <div className="border border-blue-400 rounded-lg shadow sm:max-w-lg">
                     <a href={props.link}>
-                        <Image src={props.href} alt={props.header} width={500} height={300}/>
+                        <Image src={props.href} alt={props.header} width={560} height={300}/>
                     </a>
                     <div className="p-5">
                         <p className="font-bold text-1xl tracking-wide">{props.header}</p>

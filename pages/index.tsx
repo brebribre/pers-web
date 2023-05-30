@@ -68,9 +68,9 @@ export default function Home() {
         <Title text="Certification"/>
         <ContentCard
           time = "2023"
-          header = "Full-Stack Web Development"
-          subheader = "by Udemy"
-          desc = "Gives in depth course for topics on Full-Stack Web Development."
+          header = "Udemy Web Development Bootcamp"
+          subheader = "by Angela Yu"
+          desc = "Gives in depth course on Full-Stack Web Development."
           tags = {["Node", "React", "MongoDB", "SQL"]}
           additional = "See Certificate →"
           link = "https://www.udemy.com/certificate/UC-1878d032-091d-47ca-b0d5-f72d6c71b488/"
@@ -79,14 +79,14 @@ export default function Home() {
           time = "2021"
           header = "Object Oriented Programming"
           subheader = "by edX"
-          desc = "Gives in depth course for topics on Full-Stack Web Development."
+          desc = "Course on Object Oriented Programming, taught using Java."
           tags = {["Java", "OOP"]}
           additional = "See Certificate →"
           link = "https://courses.edx.org/certificates/13a1e14438e24b1cbef45688db0567b5"
         />
         <Title text="Projects"/>
         <ProjectCard
-          time="2023"
+          time="2022"
           header="IZY Automotive"
           href="/images/izy.webp"
           desc="Portfolio website for IZY, a company specializing in automotive accessories."
@@ -104,10 +104,10 @@ export default function Home() {
           additional = "Visit Website →"
         />
         <ProjectCard
-          time="2022"
+          time="2021"
           href="/images/covid.webp"
           header="Indonesia Covid tracker"
-          desc="Tracks growth of covid-19 in Indonesia and other countries"
+          desc="Tracks growth of Covid-19 in Indonesia and other countries."
           tags = {["HTML", "CSS", "JS", "API"]}
           link = "https://brebribre.github.io/Covid-Tracker/"
           additional = "Visit Website →"

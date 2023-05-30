@@ -3,7 +3,7 @@ function BackgroundContent(props:any){
 
     return (<div>
         <div>
-        <div className="pt-20 sm:pt-20 lg:pt-20">
+        <div className="pt-10 md:pt-20">
 
             <div className="text-left">
 
