@@ -24,7 +24,7 @@ function ProjectCard(props:CardValue){
                         <Image src={props.href} alt={props.header} width={560} height={300}/>
                     </a>
                     <div className="p-5">
-                        <p className="font-bold text-1xl tracking-wide">{props.header}</p>
+                        <p className="font-bold text-1xl tracking-wide text-gray-100">{props.header}</p>
                         <p className="font-normal mt-2 text-sm mb-2 tracking-wide text-gray-400">{props.desc}</p>
 
                         {props.tags?.map((item, index) => (

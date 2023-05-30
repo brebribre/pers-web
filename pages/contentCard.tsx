@@ -18,7 +18,7 @@ function ContentCard(props:CardValue){
             <p className="mt-3 font-semibold text-1xl text-gray-400 mr-3">{props.time}</p>
             </div>
             <div className="col-span-6 mt-3">
-            <p className="font-bold text-1xl tracking-wide">{props.header}</p>
+            <p className="font-bold text-1xl tracking-wide text-gray-100">{props.header}</p>
             <p className="font-semibold text-1xl mb-2 tracking-wide text-gray-400">{props.subheader}</p>
             <p className="text-1xl font-normal text-gray-400 tracking-wide mb-2">{props.desc}</p>
             <div className=""> 
