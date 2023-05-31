@@ -1,17 +1,30 @@
 import Image from 'next/image'
-import Hero from './hero'
-import { Inter } from 'next/font/google'
+import Head from 'next/head'
+
 import Background from './Background'
-const inter = Inter({ subsets: ['latin'] })
+import Hero from './hero'
 import ContentCard from './contentCard'
 import Title from './title'
 import Footer from './footer'
 import ProjectCard from './projectCard'
 
+
+import { Inter } from 'next/font/google'
+const inter = Inter({ subsets: ['latin'] })
+
+
 export default function Home() {
   return (
     <div className="grid md:grid-cols-2 sm:grid-cols-1 bg-gradient-to-t from-slate-900 via-purple-900 to-slate-950">
-      <div className="px-4 lg:mx-8"><Hero /></div>
+      <Head>
+        <title>Bryan Alvin | Web Developer</title>
+        <link rel="shortcut icon" href="vercel.svg" />
+      </Head>
+      
+      <div className="px-4 lg:mx-8">
+        <Hero />
+      </div>
+      
       <div className="px-4">
         <Background/>
 

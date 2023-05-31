@@ -11,7 +11,7 @@ const links = [
 export default function Example() {
   return (
     <div>
-    
+      
         <HeroContent/>
         
      

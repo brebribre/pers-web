@@ -1,7 +1,7 @@
 import { SocialIcon } from 'react-social-icons';
 import { useState, useEffect} from 'react';
 import { log } from 'console';
-
+import Image from 'next/image'
 
 
 
@@ -10,8 +10,9 @@ function HeroContent(props: any) {
         <div className="max-w-2xl pt-20 sm:pt-20 lg:py-20 md:fixed md:ml-10">
 
             <div className="text-left">
+   
                 <h1 className="text-5xl font-semibold tracking-tight text-lime-100 xl:text-8xl lg:text-7xl md:text-7xl">
-                    Hi, i&apos;m Bryan.
+                    Bryan Alvin
                 </h1>
                 <p className="mt-4 text-2xl lg:text-3xl font-bold text-gray-300 max-w-sm ">I am a Web Developer.</p>
                 <p className="mt-4 text-1xl text-gray-400 font-semibold max-w-sm">I craft digital experiences and empowers the web through design, code, and innovation.</p>
