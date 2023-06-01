@@ -2,15 +2,11 @@ import Image from 'next/image'
 import Head from 'next/head'
 
 import Background from './Background'
-import Hero from './hero'
+import LeftContent from './leftContent'
 import ContentCard from './contentCard'
 import Title from './title'
 import Footer from './footer'
 import ProjectCard from './projectCard'
-
-
-import { Inter } from 'next/font/google'
-const inter = Inter({ subsets: ['latin'] })
 
 
 export default function Home() {
@@ -22,7 +18,7 @@ export default function Home() {
       </Head>
       
       <div className="px-4 lg:mx-8">
-        <Hero />
+        <LeftContent />
       </div>
       
       <div className="px-4">
