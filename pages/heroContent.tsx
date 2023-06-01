@@ -16,20 +16,26 @@ function HeroContent(props: any) {
                 </h1>
                 <p className="mt-4 text-2xl lg:text-3xl font-bold text-gray-300 max-w-sm ">I am a Web Developer.</p>
                 <p className="mt-4 text-1xl text-gray-400 font-semibold max-w-sm">I craft digital experiences and empowers the web through design, code, and innovation.</p>
-                <p className="mt-10 lg:mt-40 text-2xl text-gray-400 font-semibold max-w-sm">Find me at :</p>
-                <p className="mt-2 text-lime-200 font-bold opacity-80">alvinbryan78@gmail.com</p>
-                <div className="mt-4 flex items-center justify-left gap-x-6">
+
+                <div className="mt-8 flex items-center justify-left gap-x-6">    
                     <a href="https://www.linkedin.com/in/bryan-alvin-b652581b7/" className="z-50 text-sm font-semibold leading-6 text-lime-200">
-                        Linkedin <span aria-hidden="true">→</span>
-                        
+                        <Image src="linkedin.svg" alt="linkedin-icon" width={30} height={30}/>     
                     </a>
                     <a href="https://www.instagram.com/bryan.alvinn/" className="z-50 text-sm font-semibold leading-6 text-lime-200">
-                        Instagram <span aria-hidden="true">→</span>
+                        <Image src="instagram.svg" alt="instagram-icon" width={30} height={30}/>
                     </a>
                     <a href="https://github.com/brebribre" className="z-50 text-sm font-semibold leading-6 text-lime-200">
-                        GitHub <span aria-hidden="true">→</span>
+                        <Image src="github.svg" alt="github-icon" width={30} height={30}/>
                     </a>
                 </div>
+
+                
+
+                
+
+                
+
+
                 <div className="lg:fixed lg:bottom-10 lg:block hidden max-w-sm">
                     <p className="text-1xl mt-10 text-blue-300 opacity-50 font-light">This page are created using Next.js, styled with Tailwind.css and deployed with Vercel.</p>
                     <p className="text-1xl mt-4 text-blue-300 opacity-50 font-bold ">Copyright © 2023 Bryan Alvin</p>
