@@ -103,7 +103,7 @@ export default function Home() {
           href="/images/productivity.webp"
           header="Aesthetic Podomoro Timer"
           desc="A simple app for studying with Podomoro Timer and a To-do list."
-          tags = {["In progress","Next.js", "React.js", "Tailwind", "JS"]}
+          tags = {["In progress","Next.js", "React.js", "Tailwind", "Javascript"]}
           link = "https://productivity-app-1v2h.vercel.app/"
           additional = "Visit Website →"
         />
