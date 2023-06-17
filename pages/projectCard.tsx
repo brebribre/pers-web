@@ -1,4 +1,3 @@
-
 import Tag from "./tag";
 import Image from "next/image";
 interface CardValue {

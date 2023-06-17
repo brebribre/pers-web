@@ -46,7 +46,7 @@ export default function Home() {
 
         <Title text="Experience"/>
         <ContentCard
-          time = "2020-2021"
+          time = "2020 - 2021"
           header = "Cahaya Optima Karya GmbH"
           subheader = "Front-end Web Developer"
           desc = "Responsible for designing, developing, and launching websites for the company."
@@ -75,6 +75,7 @@ export default function Home() {
           link = ""
         />
         <Title text="Certification"/>
+        
         <ContentCard
           time = "2023"
           header = "Udemy Web Development Bootcamp"
@@ -93,7 +94,19 @@ export default function Home() {
           additional = "See Certificate →"
           link = "https://courses.edx.org/certificates/13a1e14438e24b1cbef45688db0567b5"
         />
+
+
         <Title text="Projects"/>
+
+        <ProjectCard
+          time="2023"
+          href="/images/productivity.webp"
+          header="Aesthetic Podomoro Timer"
+          desc="A simple app for studying with Podomoro Timer and a To-do list."
+          tags = {["In progress","Next.js", "React.js", "Tailwind"]}
+          link = "https://productivity-app-1v2h.vercel.app/"
+          additional = "Visit Website →"
+        />
         <ProjectCard
           time="2022"
           header="IZY Automotive"
@@ -121,6 +134,7 @@ export default function Home() {
           link = "https://brebribre.github.io/Covid-Tracker/"
           additional = "Visit Website →"
         />
+        
         <Footer/>
       </div>
     </div>

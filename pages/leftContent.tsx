@@ -20,14 +20,17 @@ function LeftContent(props: any) {
 
                 <div className="mt-8 flex items-center justify-left gap-x-6">    
                     <Icon 
+                        url= "https://www.linkedin.com/in/bryan-alvin-b652581b7/"
                         src="linkedin.svg"
                         alt="linkedin-icon"
                     />
                     <Icon 
+                        url = "https://www.instagram.com/bryan.alvinn/"
                         src="instagram.svg"
                         alt="instagram-icon"
                     />
                     <Icon 
+                        url = "https://github.com/brebribre"
                         src="github.svg"
                         alt="github-icon"
                     />
