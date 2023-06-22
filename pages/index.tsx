@@ -60,7 +60,7 @@ export default function Home() {
           time = "2023 - now"
           header = "TUM.ai Student Initiative"
           subheader = "Community Department"
-          desc = "TUM.ai is Germany’s leading student initiative around AI about which we educate, connect and run projects and events."
+          desc = "Responsible for planning and executing the whole recruitment process for one of the leading student initiative around AI in Germany."
           tags = {["Munich", "Germany"]}
           additional = ""
           link = ""
