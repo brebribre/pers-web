@@ -101,9 +101,9 @@ export default function Home() {
         <ProjectCard
           time="2023"
           href="/images/productivity.webp"
-          header="Aesthetic Podomoro Timer"
-          desc="A simple app for studying with Podomoro Timer and a To-do list."
-          tags = {["In progress","Next.js", "React.js", "Tailwind", "Javascript"]}
+          header="PodoMore"
+          desc="A web application to support the Podomoro studying technique with timer functions, music player, and personalized customization"
+          tags = {["Next.js", "React.js", "Tailwind", "Javascript"]}
           link = "https://productivity-app-1v2h.vercel.app/"
           additional = "Visit Website →"
         />
