@@ -3,8 +3,7 @@ import { useState, useEffect} from 'react';
 import { log } from 'console';
 import Image from 'next/image'
 import Icon from './icon'
-
-
+import Option from './Option'
 
 function LeftContent(props: any) {
     return (<div>
@@ -17,6 +16,19 @@ function LeftContent(props: any) {
                 </h1>
                 <p className="mt-4 text-2xl lg:text-3xl font-bold text-gray-300 max-w-sm ">I am a Web Developer.</p>
                 <p className="mt-4 text-1xl text-gray-400 font-semibold max-w-sm">I craft digital experiences and empowers the web through design, code, and innovation.</p>
+
+                <div className = "mt-5 w-40">
+                <a
+                href="/cv.pdf"
+                download="CV_BryanAlvin"
+                target="_blank"
+                rel="noreferrer"
+                className = "border-2 text-sm text-center py-2 px-4 rounded-xl font-semibold transform transition duration-200 hover:bg-white hover:text-black">
+                Download my CV
+                </a>
+                    
+                
+                </div>
 
                 <div className="mt-8 flex items-center justify-left gap-x-6">    
                     <Icon 
@@ -35,6 +47,8 @@ function LeftContent(props: any) {
                         alt="github-icon"
                     />
                 </div>
+
+                
                 
                 <div className="lg:fixed lg:bottom-10 lg:block hidden max-w-sm">
                     <p className="text-1xl mt-10 text-blue-300 opacity-50 font-light">This page are created using Next.js, styled with Tailwind.css and deployed with Vercel.</p>
