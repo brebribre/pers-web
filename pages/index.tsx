@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       
       <div className="px-4">
-        <Background/>
+        
 
         <Title text="Education"/>
         <ContentCard

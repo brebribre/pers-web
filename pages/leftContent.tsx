@@ -23,7 +23,7 @@ function LeftContent(props: any) {
                 download="CV_BryanAlvin"
                 target="_blank"
                 rel="noreferrer"
-                className = "border-2 text-sm text-center py-2 px-4 rounded-xl font-semibold transform transition duration-200 hover:bg-white hover:text-black">
+                className = "z-20 border-2 text-sm text-center py-2 px-4 rounded-xl font-semibold transform transition duration-200 hover:bg-white hover:text-black">
                 Download my CV
                 </a>
                     
