@@ -22,8 +22,6 @@ export default function Home() {
       </div>
       
       <div className="px-4">
-        
-
         <Title text="Education"/>
         <ContentCard
           time = "2021 - now"
@@ -46,7 +44,7 @@ export default function Home() {
 
         <Title text="Experience"/>
         <ContentCard
-          time = "2020 - 2021"
+          time = "2021 - 2022"
           header = "Cahaya Optima Karya GmbH"
           subheader = "Front-end Web Developer"
           desc = "Responsible for designing, developing, and launching websites for the company."
@@ -112,16 +110,16 @@ export default function Home() {
           header="IZY Automotive"
           href="/images/izy.webp"
           desc="Portfolio website for IZY, a company specializing in automotive accessories."
-          tags = {["HTML", "CSS", "Javascript"]}
+          tags = {["HTML", "CSS", "Javascript", "Bootstrap"]}
           link ="https://www.izy-automotive.id/"
           additional = "Visit Website →"
         />
         <ProjectCard
-          time="2022"
+          time="2021"
           href="/images/enos.webp"
           header="Enos Digital"
           desc="Portfolio website for Enos Digital, a company specializing in digital printing."
-          tags = {["HTML", "CSS", "Javascript"]}
+          tags = {["HTML", "CSS", "Javascript", "Bootstrap"]}
           link ="https://enosdigital.id/"
           additional = "Visit Website →"
         />

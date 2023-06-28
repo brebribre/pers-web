@@ -18,6 +18,7 @@ function LeftContent(props: any) {
                 <p className="mt-4 text-1xl text-gray-400 font-semibold max-w-sm">I craft digital experiences and empowers the web through design, code, and innovation.</p>
 
                 <div className = "mt-5 w-40">
+                {/*
                 <a
                 href="/cv.pdf"
                 download="CV_BryanAlvin"
@@ -26,6 +27,7 @@ function LeftContent(props: any) {
                 className = "z-20 border-2 text-sm text-center py-2 px-4 rounded-xl font-semibold transform transition duration-200 hover:bg-white hover:text-black">
                 Download my CV
                 </a>
+                */}
                     
                 
                 </div>
