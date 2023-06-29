@@ -44,7 +44,7 @@ export default function Home() {
 
         <Title text="Experience"/>
         <ContentCard
-          time = "2021 - 2022"
+          time = "March 2021 - December 2021"
           header = "Cahaya Optima Karya GmbH"
           subheader = "Front-end Web Developer"
           desc = "Responsible for designing, developing, and launching websites for the company."
@@ -106,7 +106,7 @@ export default function Home() {
           additional = "Visit Website →"
         />
         <ProjectCard
-          time="2022"
+          time="2021"
           header="IZY Automotive"
           href="/images/izy.webp"
           desc="Portfolio website for IZY, a company specializing in automotive accessories."
@@ -128,7 +128,7 @@ export default function Home() {
           href="/images/covid.webp"
           header="Indonesia Covid tracker"
           desc="Tracks growth of Covid-19 in Indonesia and other countries."
-          tags = {["HTML", "CSS", "JS", "API"]}
+          tags = {["HTML", "CSS", "JS", "API", "Bootstrap"]}
           link = "https://brebribre.github.io/Covid-Tracker/"
           additional = "Visit Website →"
         />
