@@ -11,33 +11,21 @@ function LeftContent(props: any) {
 
             <div className="text-left">
    
-                <h1 className="text-5xl font-semibold tracking-tight text-lime-100 xl:text-8xl lg:text-7xl md:text-7xl">
-                    Bryan Alvin
+                <h1 className="text-5xl font-semibold tracking-tight text-lime-100 xl:text-7xl lg:text-7xl md:text-7xl">
+                    Hi, i'm Bryan
                 </h1>
-                <p className="mt-4 text-2xl lg:text-3xl font-bold text-gray-300 max-w-sm ">I am a Web Developer.</p>
-                <p className="mt-4 text-1xl text-gray-400 font-semibold max-w-sm">I craft digital experiences and empowers the web through design, code, and innovation.</p>
+                <p className="mt-4 text-1xl text-gray-500 font-normal max-w-sm">a student @TUM Informatics, currently a member @TUM.ai and passionate in my journey as a web developer!</p>
 
-                <div className = "mt-5 w-40">
-                {/*
-                <a
-                href="/cv.pdf"
-                download="CV_BryanAlvin"
-                target="_blank"
-                rel="noreferrer"
-                className = "z-20 border-2 text-sm text-center py-2 px-4 rounded-xl font-semibold transform transition duration-200 hover:bg-white hover:text-black">
-                Download my CV
-                </a>
-                */}
-                    
-                
-                </div>
 
-                <div className="mt-8 flex items-center justify-left gap-x-6">    
-                    <Icon 
-                        url= "https://www.linkedin.com/in/bryan-alvin-b652581b7/"
-                        src="linkedin.svg"
-                        alt="linkedin-icon"
-                    />
+                <div className="my-4 flex items-center justify-left gap-x-6">    
+                    <div>
+                        <Icon 
+                            url= "https://www.linkedin.com/in/bryan-alvin-b652581b7/"
+                            src="linkedin.svg"
+                            alt="linkedin-icon"
+                        />
+                        
+                    </div>
                     <Icon 
                         url = "https://www.instagram.com/bryan.alvinn/"
                         src="instagram.svg"
@@ -48,6 +36,19 @@ function LeftContent(props: any) {
                         src="github.svg"
                         alt="github-icon"
                     />
+                    <div className = "grid content-center text-sm h-8 w-12 bg-slate-800 border-none rounded-md text-center my-auto hover:opacity-50 ">
+                        {
+                        <a
+                        href="/cv.pdf"
+                        download="CV_BryanAlvin"
+                        target="_blank"
+                        rel="noreferrer"
+                        className = "">
+                        CV ↓
+                        </a>
+                        }    
+                    </div>
+                   
                 </div>
 
                 

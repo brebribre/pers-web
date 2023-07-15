@@ -1,9 +1,14 @@
 import Image from 'next/image'
 
 function Icon(props:any){
-    return (<a href={props.url} className="z-50 text-sm font-semibold leading-6 text-lime-200 transform transition duration-300 hover:opacity-50 md:hover:scale-110 lg:hover:scale-110">
-        <Image src={props.src} alt={props.alt} width={30} height={30}/>     
-    </a>)
+    return (
+
+    <div className = "rounded-md bg-slate-800 p-2 hover:opacity-50 ">
+        <a href={props.url}>
+        <Image src={props.src} alt={props.alt} width={15} height={15}/>     
+        </a> 
+    </div>
+    )
 }
 
 export default Icon;
