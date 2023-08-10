@@ -12,7 +12,7 @@ function LeftContent(props: any) {
             <div className="text-left">
    
                 <h1 className="text-5xl font-semibold tracking-tight text-lime-100 xl:text-7xl lg:text-7xl md:text-7xl">
-                    Hi, i'm Bryan
+                    Hi, i&apos;m Bryan
                 </h1>
                 <p className="mt-4 text-1xl text-gray-500 font-normal max-w-sm">a student @TUM Informatics, currently a member @TUM.ai and passionate in my journey as a web developer!</p>
 
@@ -46,7 +46,7 @@ function LeftContent(props: any) {
                         className = "">
                         CV ↓
                         </a>
-                        
+
                         }    
                     </div>
                    
