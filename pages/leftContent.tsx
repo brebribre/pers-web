@@ -46,6 +46,7 @@ function LeftContent(props: any) {
                         className = "">
                         CV ↓
                         </a>
+                        
                         }    
                     </div>
                    
