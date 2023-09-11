@@ -79,7 +79,7 @@ export default function Home() {
           header = "Udemy Web Development Bootcamp"
           subheader = "by Angela Yu"
           desc = "Gives in depth course on Full-Stack Web Development."
-          tags = {["Node", "React", "MongoDB", "SQL"]}
+          tags = {["Node", "React.js", "MongoDB", "HTML", "CSS", "JS"]}
           additional = "See Certificate →"
           link = "https://www.udemy.com/certificate/UC-1878d032-091d-47ca-b0d5-f72d6c71b488/"
         />
@@ -95,7 +95,15 @@ export default function Home() {
 
 
         <Title text="Projects"/>
-
+        <ProjectCard
+          time="2023 - now"
+          href="/images/artist-tracker.webp"
+          header="Artist Concert Tracker"
+          desc="A web application to track upcoming concert of artists. Data fetched from Jambase API"
+          tags = {["Next.js", "React.js", "Tailwind", "Javascript", "API", "On progress"]}
+          link = "https://kpop-artist-tracker-nsu8.vercel.app/"
+          additional = "Visit Website →"
+        />
         <ProjectCard
           time="2023"
           href="/images/productivity.webp"
