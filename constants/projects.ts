@@ -38,10 +38,10 @@ export const projects = [
   {
         time:"2021",
         href:"/images/covid.webp",
-        header:"Enos Digital",
-        desc:"Indonesia Covid tracker",
+        header:"Indonesia Covid tracker",
+        desc:"Tracks growth of Covid-19 in Indonesia and other countries.",
         tags : ["HTML", "CSS", "JS", "API", "Bootstrap"],
-        link :"hhttps://brebribre.github.io/Covid-Tracker/",
+        link :"https://brebribre.github.io/Covid-Tracker/",
         additional : "Visit Website →"
   }
   
