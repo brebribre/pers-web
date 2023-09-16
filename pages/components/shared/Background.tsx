@@ -1,4 +1,4 @@
-import BackgroundContent from './backgroundContent'
+
 function Background(props:any){
 
     return (<div>
@@ -17,7 +17,7 @@ function Background(props:any){
         />
       </div>
 
-      <BackgroundContent/>
+
       <div
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-100"
         aria-hidden="true"

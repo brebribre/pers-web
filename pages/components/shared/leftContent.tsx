@@ -2,12 +2,12 @@ import { SocialIcon } from 'react-social-icons';
 import { useState, useEffect} from 'react';
 import { log } from 'console';
 import Image from 'next/image'
-import Icon from './icon'
-import Option from './Option'
+import Icon from '../ui/icon'
+import Option from '../ui/Option'
 
 function LeftContent(props: any) {
     return (<div>
-        <div className="max-w-2xl pt-20 sm:pt-20 lg:py-20 md:fixed md:ml-10">
+        <div className="max-w-2xl pt-14 md:fixed md:ml-10">
 
             <div className="text-left">
    
@@ -18,14 +18,12 @@ function LeftContent(props: any) {
 
 
                 <div className="my-4 flex items-center justify-left gap-x-6">    
-                    <div>
-                        <Icon 
-                            url= "https://www.linkedin.com/in/bryanalvin/"
-                            src="linkedin.svg"
-                            alt="linkedin-icon"
-                        />
-                        
-                    </div>
+            
+                     <Icon 
+                        url= "https://www.linkedin.com/in/bryanalvin/"
+                        src="linkedin.svg"
+                        alt="linkedin-icon"
+                    />
                     <Icon 
                         url = "https://www.instagram.com/bryan.alvinn/"
                         src="instagram.svg"
@@ -46,14 +44,11 @@ function LeftContent(props: any) {
                         className = "">
                         CV ↓
                         </a>
-
                         }    
-                    </div>
-                   
+                    </div>   
                 </div>
 
-                
-                
+
                 <div className="lg:fixed lg:bottom-10 lg:block hidden max-w-sm">
                     <p className="text-1xl mt-10 text-blue-300 opacity-50 font-light">This page are created using Next.js, styled with Tailwind.css and deployed with Vercel.</p>
                     <p className="text-1xl mt-4 text-blue-300 opacity-50 font-bold ">Copyright © 2023 Bryan Alvin</p>

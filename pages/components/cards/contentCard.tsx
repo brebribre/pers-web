@@ -8,7 +8,7 @@ interface CardValue {
     link: string;
   }
 
-  import Tag from "./tag";
+  import Tag from "../ui/tag";
 
 function ContentCard(props:CardValue){
 

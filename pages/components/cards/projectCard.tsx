@@ -1,4 +1,4 @@
-import Tag from "./tag";
+import Tag from "../ui/tag";
 import Image from "next/image";
 interface CardValue {
     time: string;

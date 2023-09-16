@@ -1,13 +1,12 @@
 import Image from 'next/image'
 import Head from 'next/head'
-
-import Background from './Background'
-import LeftContent from './leftContent'
-import ContentCard from './contentCard'
-import Title from './title'
-import Footer from './footer'
-import ProjectCard from './projectCard'
-
+import Background from './components/shared/Background'
+import LeftContent from './components/shared/leftContent'
+import ContentCard from './components/cards/contentCard'
+import Title from './components/ui/title'
+import Footer from './components/shared/footer'
+import ProjectCard from './components/cards/projectCard'
+import {projects} from '@/constants/projects'
 
 export default function Home() {
   return (
@@ -95,51 +94,19 @@ export default function Home() {
 
 
         <Title text="Projects"/>
-        <ProjectCard
-          time="2023 - now"
-          href="/images/artist-tracker.webp"
-          header="Artist Concert Tracker"
-          desc="A web application to track upcoming concert of artists. Data fetched from Jambase API"
-          tags = {["Next.js", "React.js", "Tailwind", "Javascript", "API", "On progress"]}
-          link = "https://kpop-artist-tracker-nsu8.vercel.app/"
-          additional = "Visit Website →"
-        />
-        <ProjectCard
-          time="2023"
-          href="/images/productivity.webp"
-          header="PodoMore"
-          desc="A web application to support the Podomoro studying technique with timer functions, music player, and personalized customization"
-          tags = {["Next.js", "React.js", "Tailwind", "Javascript"]}
-          link = "https://productivity-app-1v2h.vercel.app/"
-          additional = "Visit Website →"
-        />
-        <ProjectCard
-          time="2021"
-          header="IZY Automotive"
-          href="/images/izy.webp"
-          desc="Portfolio website for IZY, a company specializing in automotive accessories."
-          tags = {["HTML", "CSS", "Javascript", "Bootstrap"]}
-          link ="https://www.izy-automotive.id/"
-          additional = "Visit Website →"
-        />
-        <ProjectCard
-          time="2021"
-          href="/images/enos.webp"
-          header="Enos Digital"
-          desc="Portfolio website for Enos Digital, a company specializing in digital printing."
-          tags = {["HTML", "CSS", "Javascript", "Bootstrap"]}
-          link ="https://enosdigital.id/"
-          additional = "Visit Website →"
-        />
-        <ProjectCard
-          time="2021"
-          href="/images/covid.webp"
-          header="Indonesia Covid tracker"
-          desc="Tracks growth of Covid-19 in Indonesia and other countries."
-          tags = {["HTML", "CSS", "JS", "API", "Bootstrap"]}
-          link = "https://brebribre.github.io/Covid-Tracker/"
-          additional = "Visit Website →"
-        />
+        {projects?.map((item:any,index:number)=>{
+            return <ProjectCard
+            key={index}
+            time={item.time}
+            href={item.href}
+            header={item.header}
+            desc={item.desc}
+            tags = {item.tags}
+            link = {item.link}
+            additional = {item.additional}
+          />
+          })
+        }
         
         <Footer/>
       </div>
