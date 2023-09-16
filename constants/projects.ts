@@ -14,7 +14,7 @@ export const projects = [
         header:"PodoMore",
         desc:"A web application to support the Podomoro studying technique with timer functions, music player, and personalized customization",
         tags : ["Next.js", "React.js", "Tailwind", "Javascript"],
-        link : "https://productivity-app-1v2h.vercel.app/",
+        link : "https://www.podomore.tech/",
         additional : "Visit Website →"
   },
   {
