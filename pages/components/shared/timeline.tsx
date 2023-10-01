@@ -11,6 +11,8 @@ import TimelineOppositeContent, {
 import ContentCard from '../cards/contentCard';
 import { educations } from '@/constants/education';
 import TimelineCard from '../cards/timelineCard';
+import ProjectCard from '../cards/projectCard';
+import TimelineProjectCard from '../cards/timelineProjectCard';
 
 export default function CustomizedTimeline() {
   return (
@@ -47,6 +49,31 @@ export default function CustomizedTimeline() {
 
         <TimelineItem>
             <TimelineOppositeContent>
+
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+            
+            <div className = "mb-8">
+      
+                <TimelineProjectCard
+                time="2021"
+                href="/images/covid.webp"
+                header="Indonesia Covid tracker"
+                desc="Tracks growth of Covid-19 in Indonesia and other countries."
+                tags = {["HTML", "CSS", "JS", "API"]}
+                link = "https://github.com/brebribre/Covid-Tracker"
+                additional = "Visit Repository →"
+                />
+            </div>
+            </TimelineContent>
+        </TimelineItem>
+
+        <TimelineItem>
+            <TimelineOppositeContent>
             <p className = "text-slate-200 text-sm  ">2021</p>
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -67,6 +94,8 @@ export default function CustomizedTimeline() {
             </div>
             </TimelineContent>
         </TimelineItem>
+
+        
 
         <TimelineItem>
             <TimelineOppositeContent>
@@ -178,13 +207,13 @@ export default function CustomizedTimeline() {
             <TimelineContent>
             
             <div className = "mb-8">
-                <TimelineCard
+                <TimelineProjectCard
                 time = "2023 - now"
                 header = "PodoMore"
-                subheader = "Personal project"
                 desc = "A web application to support the Podomoro studying technique."
                 tags = {["Next.js", "React.js", "Tailwind", "JS"]}
                 additional = "See Project →"
+                href = "/images/productivity.webp"
                 link = "https://productivity-app-1v2h.vercel.app/"
                 />
             </div>
@@ -202,13 +231,15 @@ export default function CustomizedTimeline() {
             <TimelineContent>
             
             <div className = "mb-8">
-                <TimelineCard
+      
+                <TimelineProjectCard
                 time = "2023 - now"
                 header = "Artist Concert Tracker"
-                subheader = "Personal project"
+              
                 desc = "A web application to track artists' upcoming concerts and ticket offers."
                 tags = {["Next.js", "Tailwind", "MongoDB", "API", "Web Scrapping", "On progress"]}
                 additional = "See Project →"
+                href = "/images/artist-tracker.webp"
                 link = "https://kpop-artist-tracker-nsu8.vercel.app/"
                 />
             </div>
