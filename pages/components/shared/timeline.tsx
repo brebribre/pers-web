@@ -31,6 +31,10 @@ export default function CustomizedTimeline() {
             </TimelineSeparator>
             <TimelineContent>
             <div className = "mb-16">
+            <p className="text-xs font-normal text-gray-500 mb-4">
+                Since high school, i have been involved in multiple school activities, working as a coordinator for equipment and logistics for school events scaling up to 15K Euro.
+            </p>
+            
             <TimelineCard
             time = ""
             header = "SMAK 1 Penabur"
@@ -40,20 +44,24 @@ export default function CustomizedTimeline() {
             additional = ""
             link = ""
             />
+
+        
             </div>
             </TimelineContent>
         </TimelineItem>
 
         <TimelineItem>
             <TimelineOppositeContent>
-
+            <p className = "text-slate-200 text-sm  ">2020</p>
             </TimelineOppositeContent>
             <TimelineSeparator>
             <TimelineDot />
             <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-            
+            <p className="text-xs font-normal text-gray-500 mb-4">
+                My web development starts here. Starting with simple HTML and CSS projects and learning purely from the internet, i created my first project: A Covid-19 tracker.
+            </p>
             <div className = "mb-8">
       
                 <TimelineProjectCard
@@ -79,12 +87,15 @@ export default function CustomizedTimeline() {
             </TimelineSeparator>
             <TimelineContent>
             <div className = "mb-8">
+            <p className="text-xs font-normal text-gray-500 mb-4">
+                With the rise of remote jobs, i applied and started working as a web developer intern in Cahaya Optima Karya in Jakarta.
+            </p>
             <TimelineCard
             time = "2020 - 2021"
             header = "Cahaya Optima Karya GmbH"
             subheader = "Front-end Web Developer Intern"
-            desc = "Responsible for designing, developing, and launching websites for the company."
-            tags = {["HTML", "CSS", "Javascript"]}
+            desc = "Successfully designed, developed, and launched 2 websites for the company."
+            tags = {["HTML", "CSS", "Javascript", "Bootstrap"]}
             additional = ""
             link = ""
             />
@@ -106,7 +117,7 @@ export default function CustomizedTimeline() {
             <TimelineCard
             time = "2021 - now"
             header = "Technische Universität München"
-            subheader = "4th semester Computer Science"
+            subheader = "5th semester Computer Science"
             desc = "With application subject in business administration."
             tags = {["SQL", "Java", "C", "OOP"]}
             additional = ""
@@ -126,6 +137,7 @@ export default function CustomizedTimeline() {
             </TimelineSeparator>
            
             <TimelineContent>
+            
             <div className = "mb-12">
                 <TimelineCard
                 time = "2021"
@@ -179,12 +191,16 @@ export default function CustomizedTimeline() {
             </TimelineSeparator>
             <TimelineContent>
             <div className = "mb-8">
+            <p className="text-xs font-normal text-gray-500 mb-4">
+                My time at TUM motivated me to meet new people with the same field of interests as me, which led me to join one of the biggest student initiative in Germany concerning Artificial Intellegence.
+            </p>
+
             <TimelineCard
             time = "2023 - now"
             header = "TUM.ai Student Initiative"
             subheader = "Community Department"
-            desc = "Responsible for planning and executing the whole recruitment process for one of the leading student initiative around AI in Germany. Project leader of the Club Newsletter."
-            tags = {["Mailchimp", "Recruitment"]}
+            desc = "Project leader of the Club Newsletter. Responsible for planning and executing the recruitment process."
+            tags = {["Mailchimp", "Recruitment", "Canva"]}
             additional = ""
             link = ""
   
@@ -204,6 +220,9 @@ export default function CustomizedTimeline() {
             <TimelineContent>
             
             <div className = "mb-8">
+            <p className="text-xs font-normal text-gray-500 mb-4">
+                In this time, i learned a lot of new frameworks such as React and Tailwind, which led me to create multiple personal projects.
+            </p>
                 <TimelineProjectCard
                 time = "2023 - now"
                 header = "PodoMore"
@@ -254,6 +273,9 @@ export default function CustomizedTimeline() {
             <TimelineContent>
             
             <div className = "mb-10">
+            <p className="text-xs font-normal text-gray-500 mb-4">
+                Now excited to start working as an intern in Germany, utilizing all things i learned in my time here!
+            </p>
                 <TimelineCard
                 time = "2023 - now"
                 header = "Agile Robots AG"

@@ -11,6 +11,7 @@ import CustomizedTimeline from './timeline';
 
 function RightContent(props: any) {
     return (<div className = "md:pt-16 lg:mr-24">
+       
         <CustomizedTimeline/>
         { 
           /*
