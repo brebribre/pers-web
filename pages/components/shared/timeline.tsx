@@ -14,7 +14,7 @@ import TimelineCard from '../cards/timelineCard';
 
 export default function CustomizedTimeline() {
   return (
-    <div className = "xl:mr-48">
+    <div className = "">
         <Timeline
         sx={{
             [`& .${timelineOppositeContentClasses.root}`]: {
