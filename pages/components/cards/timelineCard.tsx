@@ -23,7 +23,7 @@ function TimelineCard(props:CardValue){
                         <Tag key={index} desc={item} />
                     ))}
                 </div>
-                <p className="mt-1">
+                <p className="mt-3">
                         <a href={props.link} className="text-xs font-semibold text-purple-200">
                             {props.additional}
                         </a>
