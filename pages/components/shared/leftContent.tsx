@@ -34,7 +34,7 @@ function LeftContent(props: any) {
                         src="github.svg"
                         alt="github-icon"
                     />
-                    <div className = "grid content-center text-sm h-8 w-12 bg-slate-800 border-none rounded-md text-center my-auto hover:opacity-50 ">
+                    <div className = "text-slate-200 grid content-center text-sm h-8 w-12 bg-slate-800 border-none rounded-md text-center my-auto hover:opacity-50 ">
                         {
                         <a
                         href="/cv.pdf"
