@@ -88,7 +88,7 @@ export default function CustomizedTimeline() {
             <TimelineContent>
             <div className = "mb-8">
             <p className="text-xs md:text-sm font-normal text-gray-500 mb-4">
-                With the rise of remote jobs, i applied and started working as a web developer intern in Cahaya Optima Karya in Jakarta.
+                With the rise of remote jobs, i applied and started working as a web developer intern in Jakarta.
             </p>
             <TimelineCard
             time = "2020 - 2021"
@@ -192,7 +192,7 @@ export default function CustomizedTimeline() {
             <TimelineContent>
             <div className = "mb-8">
             <p className="text-xs md:text-sm font-normal text-gray-500 mb-4">
-                My time at TUM motivated me to meet new people with the same field of interests as me, which led me to join one of the biggest student initiative in Germany concerning Artificial Intellegence.
+                My time at TUM motivated me to meet new people with the same field of interests as me, which led me to join one of the biggest student initiative in Germany concerning AI.
             </p>
 
             <TimelineCard
