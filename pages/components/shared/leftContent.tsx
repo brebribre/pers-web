@@ -14,7 +14,7 @@ function LeftContent(props: any) {
                 <h1 className="text-4xl font-semibold tracking-tight text-lime-100 xl:text-7xl lg:text-7xl md:text-6xl">
                     Hi, i&apos;m Bryan
                 </h1>
-                <p className="mt-4 text-sm text-gray-500 font-normal max-w-sm">a student @TUM Informatics, currently a member @TUM.ai and passionate in my journey as a web developer!</p>
+                <p className="mt-4 text-sm text-slate-400 font-normal max-w-sm">a student @TUM Informatics, currently a member @TUM.ai and passionate in my journey as a web developer!</p>
 
 
                 <div className="my-4 flex items-center justify-left gap-x-6">    
@@ -34,7 +34,7 @@ function LeftContent(props: any) {
                         src="github.svg"
                         alt="github-icon"
                     />
-                    <div className = "text-slate-200 grid content-center text-sm h-8 w-12 bg-slate-800 border-none rounded-md text-center my-auto hover:opacity-50 ">
+                    <div className = "text-slate-200 grid content-center text-sm h-8 w-12 bg-blue-900 border-none rounded-md text-center my-auto hover:opacity-50 ">
                         {
                         <a
                         href="/cv.pdf"

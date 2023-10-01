@@ -8,10 +8,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent, {
   timelineOppositeContentClasses,
 } from '@mui/lab/TimelineOppositeContent';
-import ContentCard from '../cards/contentCard';
-import { educations } from '@/constants/education';
 import TimelineCard from '../cards/timelineCard';
-import ProjectCard from '../cards/projectCard';
 import TimelineProjectCard from '../cards/timelineProjectCard';
 
 export default function CustomizedTimeline() {
