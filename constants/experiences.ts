@@ -1,12 +1,11 @@
 export const experiences = [
     {
-        time : "2021 - now",
-        header : "Technische Universität München",
-        subheader : "4th semester Computer Science",
-        desc : "With application subject in business administration.",
-        tags : ["SQL", "Java", "C", "OOP"],
+        time : "March 2021 - December 2021",
+        header : "Cahaya Optima Karya GmbH",
+        subheader : "Front-end Web Developer",
+        desc : "Responsible for designing, developing, and launching websites for the company.",
+        tags : ["HTML", "CSS", "Javascript"],
         additional : "",
-        link : " "
+        link : ""
     },
 ]
-
