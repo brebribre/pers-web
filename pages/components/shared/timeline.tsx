@@ -31,7 +31,7 @@ export default function CustomizedTimeline() {
             </TimelineSeparator>
             <TimelineContent>
             <div className = "mb-16">
-            <p className="text-xs font-normal text-gray-500 mb-4">
+            <p className="text-xs md:text-sm font-normal text-gray-500 mb-4">
                 Since high school, i have been involved in multiple school activities, working as a coordinator for equipment and logistics for school events scaling up to 15K Euro.
             </p>
             
@@ -59,7 +59,7 @@ export default function CustomizedTimeline() {
             <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-            <p className="text-xs font-normal text-gray-500 mb-4">
+            <p className="text-xs md:text-sm font-normal text-gray-500 mb-4">
                 My web development starts here. Starting with simple HTML and CSS projects and learning purely from the internet, i created my first project: A Covid-19 tracker.
             </p>
             <div className = "mb-8">
@@ -87,7 +87,7 @@ export default function CustomizedTimeline() {
             </TimelineSeparator>
             <TimelineContent>
             <div className = "mb-8">
-            <p className="text-xs font-normal text-gray-500 mb-4">
+            <p className="text-xs md:text-sm font-normal text-gray-500 mb-4">
                 With the rise of remote jobs, i applied and started working as a web developer intern in Cahaya Optima Karya in Jakarta.
             </p>
             <TimelineCard
@@ -191,7 +191,7 @@ export default function CustomizedTimeline() {
             </TimelineSeparator>
             <TimelineContent>
             <div className = "mb-8">
-            <p className="text-xs font-normal text-gray-500 mb-4">
+            <p className="text-xs md:text-sm font-normal text-gray-500 mb-4">
                 My time at TUM motivated me to meet new people with the same field of interests as me, which led me to join one of the biggest student initiative in Germany concerning Artificial Intellegence.
             </p>
 
@@ -220,7 +220,7 @@ export default function CustomizedTimeline() {
             <TimelineContent>
             
             <div className = "mb-8">
-            <p className="text-xs font-normal text-gray-500 mb-4">
+            <p className="text-xs md:text-sm font-normal text-gray-500 mb-4">
                 In this time, i learned a lot of new frameworks such as React and Tailwind, which led me to create multiple personal projects.
             </p>
                 <TimelineProjectCard
@@ -273,7 +273,7 @@ export default function CustomizedTimeline() {
             <TimelineContent>
             
             <div className = "mb-10">
-            <p className="text-xs font-normal text-gray-500 mb-4">
+            <p className="text-xs md:text-sm font-normal text-gray-500 mb-4">
                 Now excited to start working as an intern in Germany, utilizing all things i learned in my time here!
             </p>
                 <TimelineCard
