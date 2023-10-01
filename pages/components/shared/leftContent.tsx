@@ -7,14 +7,14 @@ import Option from '../ui/Option'
 
 function LeftContent(props: any) {
     return (<div>
-        <div className="max-w-2xl pt-14 md:fixed md:ml-10">
+        <div className="pt-14 ml-12 sm:ml-20 md:fixed pb-10">
 
             <div className="text-left">
    
-                <h1 className="text-5xl font-semibold tracking-tight text-lime-100 xl:text-7xl lg:text-7xl md:text-7xl">
+                <h1 className="text-4xl font-semibold tracking-tight text-lime-100 xl:text-7xl lg:text-7xl md:text-6xl">
                     Hi, i&apos;m Bryan
                 </h1>
-                <p className="mt-4 text-1xl text-gray-500 font-normal max-w-sm">a student @TUM Informatics, currently a member @TUM.ai and passionate in my journey as a web developer!</p>
+                <p className="mt-4 text-sm text-gray-500 font-normal max-w-sm">a student @TUM Informatics, currently a member @TUM.ai and passionate in my journey as a web developer!</p>
 
 
                 <div className="my-4 flex items-center justify-left gap-x-6">    
@@ -48,6 +48,7 @@ function LeftContent(props: any) {
                     </div>   
                 </div>
 
+         
 
                 <div className="lg:fixed lg:bottom-10 lg:block hidden max-w-sm">
                     <p className="text-1xl mt-10 text-blue-300 opacity-50 font-light">This page are created using Next.js, styled with Tailwind.css and deployed with Vercel.</p>

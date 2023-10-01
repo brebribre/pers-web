@@ -7,10 +7,14 @@ import { educations } from '@/constants/education'
 import { experiences } from '@/constants/experiences';
 import { organizations } from '@/constants/organizations';
 import { certificates } from '@/constants/certificates';
+import CustomizedTimeline from './timeline';
 
 function RightContent(props: any) {
-    return (<div>
-        <Title text="Education"/>
+    return (<div className = "md:pt-16 lg:mr-24">
+        <CustomizedTimeline/>
+        { 
+          /*
+          <Title text="Education"/>
         {educations?.map((item:any,index:number)=>{
             return <ContentCard
             key = {index}
@@ -85,7 +89,10 @@ function RightContent(props: any) {
           />
           })
         }
+          */
+        }
         
+    
         <Footer/>
 
     </div>)
