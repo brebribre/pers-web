@@ -7,7 +7,7 @@ import Option from '../ui/Option'
 
 function LeftContent(props: any) {
     return (<div>
-        <div className="pt-14 ml-10 mr-10 sm:ml-20 md:fixed pb-10">
+        <div className="pt-14 ml-12 mr-10 md:fixed pb-10">
 
             <div className="text-left">
    

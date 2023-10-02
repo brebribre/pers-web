@@ -13,7 +13,7 @@ import TimelineProjectCard from '../cards/timelineProjectCard';
 
 export default function CustomizedTimeline() {
   return (
-    <div className = "">
+    <div className = "ml-4">
         <Timeline
         sx={{
             [`& .${timelineOppositeContentClasses.root}`]: {
@@ -23,7 +23,7 @@ export default function CustomizedTimeline() {
         >
         <TimelineItem>
             <TimelineOppositeContent>
-            <p className = "text-slate-200 text-sm  ">2017</p>
+            <p className = "text-slate-200 text-sm flex">2017</p>
             </TimelineOppositeContent>
             <TimelineSeparator>
             <TimelineDot />
@@ -52,14 +52,14 @@ export default function CustomizedTimeline() {
 
         <TimelineItem>
             <TimelineOppositeContent>
-            <p className = "text-slate-200 text-sm  ">2020</p>
+            <p className = "text-slate-200 text-sm flex ">2020</p>
             </TimelineOppositeContent>
             <TimelineSeparator>
             <TimelineDot />
             <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-            <p className="text-xs md:text-sm font-normal text-gray-500 mb-4">
+            <p className="text-xs md:text-sm font-normal text-gray-500  mb-4">
                 My web development starts here. Starting with simple HTML and CSS projects and learning purely from the internet, i created my first project: A Covid-19 tracker.
             </p>
             <div className = "mb-8">
@@ -79,7 +79,7 @@ export default function CustomizedTimeline() {
 
         <TimelineItem>
             <TimelineOppositeContent>
-            <p className = "text-slate-200 text-sm  ">2021</p>
+            <p className = "text-slate-200 text-sm flex ">2021</p>
             </TimelineOppositeContent>
             <TimelineSeparator>
             <TimelineDot />
@@ -158,7 +158,7 @@ export default function CustomizedTimeline() {
 
         <TimelineItem>
             <TimelineOppositeContent>
-            <p className = "text-slate-200 text-sm  ">2023</p>
+            <p className = "text-slate-200 text-sm flex">2023</p>
             </TimelineOppositeContent>
             <TimelineSeparator>
             <TimelineDot />

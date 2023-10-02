@@ -10,11 +10,11 @@ export default function Home() {
         <link rel="shortcut icon" href="vercel.svg" />
       </Head>
       
-      <div className="px-4 lg:mx-8">
+      <div className="">
         <LeftContent />
       </div>
       
-      <div className="px-4">
+      <div className="">
         <RightContent/>
       </div>
 
