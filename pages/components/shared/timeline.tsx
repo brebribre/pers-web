@@ -224,7 +224,7 @@ export default function CustomizedTimeline() {
                 In this time, i learned a lot of new frameworks such as React and Tailwind, which led me to create multiple personal projects.
             </p>
                 <TimelineProjectCard
-                time = "2023 - now"
+                time = "2023"
                 header = "PodoMore"
                 desc = "A web application to support the Podomoro studying technique."
                 tags = {["Next.js", "React.js", "Tailwind", "JS"]}
@@ -235,6 +235,8 @@ export default function CustomizedTimeline() {
             </div>
             </TimelineContent>
         </TimelineItem>
+
+       
 
         <TimelineItem>
             <TimelineOppositeContent>
@@ -257,6 +259,33 @@ export default function CustomizedTimeline() {
                 additional = "See Project →"
                 href = "/images/artist-tracker.webp"
                 link = "https://kpop-artist-tracker-nsu8.vercel.app/"
+                />
+            </div>
+            </TimelineContent>
+        </TimelineItem>
+
+        <TimelineItem>
+            <TimelineOppositeContent>
+
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+            
+            <div className = "mb-8">
+            <p className="text-xs md:text-sm font-normal text-gray-500 mb-4">
+                Project-based learning is my favorite way to learn new tools and frameworks. When i was starting to learn Vue.js, I decided to rewrite the Podomore app in Vue.js. 
+            </p>
+                <TimelineProjectCard
+                time = "2023 - now"
+                header = "PodoMore"
+                desc = "A web application to support the Podomoro studying technique, written in Vue.js."
+                tags = {["Vue.js", "CSS", "Typescript"]}
+                additional = "See Project →"
+                href = "/images/project.webp"
+                link = "https://podomore-one.vercel.app/"
                 />
             </div>
             </TimelineContent>
