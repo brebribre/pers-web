@@ -38,7 +38,7 @@ export default function CustomizedTimeline() {
                     <TimelineProjectCard
                     time = "September 2024"
                     header = "Shopee Sales Report"
-                    desc = "A web application to support the Podomoro studying technique, written in Vue.js."
+                    desc = "A web application for Shopee E-Commerce data preprocessing."
                     tags = {["Vue.js", "CSS", "Typescript", "Python", "pandas" ,"On progress"]}
                     additional = "See Project →"
                     href = "/images/shopee.png"
