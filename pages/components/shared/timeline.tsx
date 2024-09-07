@@ -20,7 +20,7 @@ export default function CustomizedTimeline() {
                 flex: 0.2,
                 },
             }}
-            className='flex-col-reverse'
+            className='flex flex-col-reverse'
         >
             <TimelineItem>
                 <TimelineOppositeContent>
