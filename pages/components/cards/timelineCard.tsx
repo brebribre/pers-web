@@ -15,9 +15,9 @@ function TimelineCard(props:CardValue){
     return (
         <div className="">
             <div className="">
-                <p className="font-bold text-sm tracking-wide text-gray-100">{props.header}</p>
-                <p className="font-semibold text-xs mb-2 tracking-wide text-gray-400">{props.subheader}</p>
-                <p className="text-xs font-normal text-gray-400 tracking-wide mb-2">{props.desc}</p>
+                <p className="font-bold text-xl tracking-wide text-gray-100">{props.header}</p>
+                <p className="font-semibold text-md mb-2 tracking-wide text-gray-400">{props.subheader}</p>
+                <p className="text-md font-normal text-gray-400 tracking-wide mb-2">{props.desc}</p>
                 <div className="flex flex-wrap"> 
                     {props.tags?.map((item, index) => (
                         <Tag key={index} desc={item} />

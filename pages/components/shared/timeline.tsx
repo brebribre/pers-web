@@ -320,8 +320,8 @@ export default function CustomizedTimeline() {
                     A personal project for data visualization, where i made a web application that receives a sales report from the Shopee e-commerce and reformats it to a format that is easy to read.
                 </p>
                     <TimelineProjectCard
-                    time = "2023 - now"
-                    header = "PodoMore"
+                    time = "September 2024"
+                    header = "Shopee Sales Report"
                     desc = "A web application to support the Podomoro studying technique, written in Vue.js."
                     tags = {["Vue.js", "CSS", "Typescript", "Python", "pandas" ,"On progress"]}
                     additional = "See Project →"

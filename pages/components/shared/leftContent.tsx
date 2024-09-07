@@ -12,11 +12,11 @@ function LeftContent(props: any) {
                 <h1 className="text-4xl font-semibold tracking-tight text-lime-100 xl:text-7xl lg:text-7xl md:text-6xl">
                     Hi, i&apos;m Bryan
                 </h1>
-                <p className="mt-4 text-sm text-slate-400 font-normal max-w-lg">A student @TUM Informatics, working student @Agile-Robots-SE and passionate in my journey as a software engineer!</p>
+                <p className="mt-4 text-lg text-slate-400 font-normal max-w-lg">A student @TUM Informatics, working student @Agile-Robots-SE and passionate in my journey as a software engineer!</p>
 
 
                 <div className="my-4 flex items-center justify-left gap-x-6">    
-                     <Icon 
+                    <Icon 
                         url= "https://www.linkedin.com/in/bryanalvin/"
                         src="linkedin.svg"
                         alt="linkedin-icon"

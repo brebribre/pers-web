@@ -21,8 +21,9 @@ function TimelineProjectCard(props:CardValue){
                         <Image src={props.href} alt={props.header} width={560} height={300}/>
                     </a>
                     <div className="p-5">
-                        <p className="font-bold text-sm tracking-wide text-gray-100">{props.header}</p>
-                        <p className="font-normal mt-2 text-xs mb-2 tracking-wide text-gray-400">{props.desc}</p>
+                        <p className="font-bold text-xl tracking-wide text-gray-100">{props.header}</p>
+                        <p className="font-bold text-md mt-2 tracking-wide text-gray-500">{props.time}</p>
+                        <p className="font-normal mt-2 text-md mb-2 tracking-wide text-gray-400">{props.desc}</p>
                         <div className = "flex flex-wrap">
                             {props.tags?.map((item, index) => (
                             <Tag key={index} desc={item} />
@@ -34,6 +35,7 @@ function TimelineProjectCard(props:CardValue){
                             {props.additional}
                         </a>
                     </p>
+                    
                     </div>
 
                     
