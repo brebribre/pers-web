@@ -10,93 +10,12 @@ import { certificates } from '@/constants/certificates';
 import CustomizedTimeline from './timeline';
 
 function RightContent(props: any) {
-    return (<div className = "md:pt-16 lg:mr-24">
-       
-        <CustomizedTimeline/>
-        { 
-          /*
-          <Title text="Education"/>
-        {educations?.map((item:any,index:number)=>{
-            return <ContentCard
-            key = {index}
-            time = {item.time}
-            header = {item.header}
-            subheader = {item.subheader}
-            desc = {item.desc}
-            tags = {item.tags}
-            additional = {item.additional}
-            link = {item.link}
-          />
-          })
-        }
-
-        <Title text="Experience"/>
-        {experiences?.map((item:any,index:number)=>{
-            return <ContentCard
-            key = {index}
-            time = {item.time}
-            header = {item.header}
-            subheader = {item.subheader}
-            desc = {item.desc}
-            tags = {item.tags}
-            additional = {item.additional}
-            link = {item.link}
-          />
-          })
-        }
-
-        <Title text="Organization"/>
-        {organizations?.map((item:any,index:number)=>{
-            return <ContentCard
-            key = {index}
-            time = {item.time}
-            header = {item.header}
-            subheader = {item.subheader}
-            desc = {item.desc}
-            tags = {item.tags}
-            additional = {item.additional}
-            link = {item.link}
-          />
-          })
-        }
-
-        <Title text="Certification"/>
-        {certificates?.map((item:any,index:number)=>{
-            return <ContentCard
-            key = {index}
-            time = {item.time}
-            header = {item.header}
-            subheader = {item.subheader}
-            desc = {item.desc}
-            tags = {item.tags}
-            additional = {item.additional}
-            link = {item.link}
-          />
-          })
-        }
-
-
-        <Title text="Projects"/>
-        {projects?.map((item:any,index:number)=>{
-            return <ProjectCard
-            key={index}
-            time={item.time}
-            href={item.href}
-            header={item.header}
-            desc={item.desc}
-            tags = {item.tags}
-            link = {item.link}
-            additional = {item.additional}
-          />
-          })
-        }
-          */
-        }
-        
-    
-        <Footer/>
-
-    </div>)
+    return (
+      <div className = "md:pt-16 lg:mr-24">
+          <CustomizedTimeline/>    
+          <Footer/>
+      </div>
+    )
 }
 
 export default RightContent;
