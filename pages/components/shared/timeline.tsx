@@ -42,7 +42,7 @@ export default function CustomizedTimeline() {
                     tags = {["Vue.js", "CSS", "Typescript", "Python", "pandas" ,"On progress"]}
                     additional = "See Project →"
                     href = "/images/shopee.png"
-                    link = "https://github.com/brebribre/shopee-ml"
+                    link = "https://github.com/brebribre/shopee-ml-frontend"
                     />
                 </div>
                 </TimelineContent>
