@@ -315,6 +315,15 @@ export default function CustomizedTimeline() {
           </TimelineContent>
         </TimelineItem>
       </Timeline>
+      <div className="lg:hidden block text-center">
+        <p className="text-1xl text-blue-300 opacity-50 font-light">
+          This page are created using Next.js, styled with Tailwind.css and
+          deployed with Vercel.
+        </p>
+        <p className="text-1xl mt-4 mb-12 lg:mb-0 text-blue-300 opacity-50 font-bold ">
+          Copyright © 2023 Bryan Alvin
+        </p>
+      </div>
     </div>
   );
 }

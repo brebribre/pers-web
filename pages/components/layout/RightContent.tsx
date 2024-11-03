@@ -4,6 +4,7 @@ function RightContent() {
   return (
     <div className="md:pt-16 lg:mr-24">
       <Timeline />
+
     </div>
   );
 }
