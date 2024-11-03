@@ -230,7 +230,7 @@ export default function CustomizedTimeline() {
               <TimelineCard
                 time="2021 - now"
                 header="Technische Universität München"
-                subheader="5th semester Computer Science"
+                subheader="BSc Computer Science"
                 desc="With application subject in business administration."
                 tags={['SQL', 'Java', 'C', 'OOP']}
                 additional=""
