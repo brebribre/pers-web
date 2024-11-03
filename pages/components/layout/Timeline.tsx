@@ -13,11 +13,11 @@ import TimelineProjectCard from '@/pages/components/reusables/cards/TimelineProj
 
 export default function CustomizedTimeline() {
   return (
-    <div className="ml-4">
+    <div>
       <Timeline
         sx={{
           [`& .${timelineOppositeContentClasses.root}`]: {
-            flex: 0.2,
+            flex: 0,
           },
         }}
       >
@@ -146,7 +146,7 @@ export default function CustomizedTimeline() {
 
         <TimelineItem>
           <TimelineOppositeContent>
-            <p className="text-slate-200 text-sm flex">2023</p>
+
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />
@@ -242,7 +242,7 @@ export default function CustomizedTimeline() {
 
         <TimelineItem>
           <TimelineOppositeContent>
-            <p className="text-slate-200 text-sm flex ">2021</p>
+
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />
@@ -269,7 +269,6 @@ export default function CustomizedTimeline() {
 
         <TimelineItem>
           <TimelineOppositeContent>
-            <p className="text-slate-200 text-sm flex ">2020</p>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />
@@ -297,7 +296,6 @@ export default function CustomizedTimeline() {
 
         <TimelineItem>
           <TimelineOppositeContent>
-            <p className="text-slate-200 text-sm flex">2017</p>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />

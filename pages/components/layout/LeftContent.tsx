@@ -3,10 +3,10 @@ import Icon from '@/pages/components/reusables/Icon';
 function LeftContent() {
   return (
     <div>
-      <div className="pt-14 ml-12 mr-10 md:fixed pb-10">
+      <div className="pt-14 ml-12 mr-10 lg:fixed pb-10">
         <div className="text-left">
           <h1 className="text-4xl font-semibold tracking-tight text-lime-100 xl:text-7xl lg:text-7xl md:text-6xl">
-            Hi, i&apos;m Bryan
+            Hi, i&apos;m Bryan Alvin
           </h1>
           <p className="mt-4 text-lg text-slate-400 font-normal max-w-lg">
             B.Sc @TUM Informatics, working student @Infineon and passionate in

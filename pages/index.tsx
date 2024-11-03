@@ -4,10 +4,10 @@ import RightContent from '@/pages/components/layout/RightContent';
 
 export default function Home() {
   return (
-    <div className="grid md:grid-cols-2 sm:grid-cols-1 bg-gradient-to-t from-slate-900 via-purple-900 to-slate-950">
-      <Head>
-        <title>Bryan Alvin | Web Developer</title>
-      </Head>
+    <div className="grid grid-cols-1 xl:grid-cols-2 bg-gradient-to-t from-amber-700 via-red-700 to-purple-900">
+        <Head>
+            <title>Bryan Alvin | Web Developer</title>
+        </Head>
       <LeftContent />
       <RightContent />
     </div>

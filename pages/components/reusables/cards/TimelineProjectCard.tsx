@@ -11,14 +11,14 @@ interface CardValue {
 }
 function TimelineProjectCard(props: CardValue) {
   return (
-    <div className="mb-12 md:grid-cols-8 rounded-lg transform transition duration-300 hover:opacity-50 md:hover:scale-110 lg:hover:scale-110">
-      <div className="mt-3 mr-4">
-        <div className="border border-blue-400 rounded-lg shadow sm:max-w-lg">
+    <div className="w-full mb-12 md:grid-cols-8 rounded-lg transform transition duration-300 hover:opacity-50 md:hover:scale-110 lg:hover:scale-110">
+      <div className="mt-3">
+        <div className="border border-blue-400 rounded-lg shadow">
           <a href={props.link}>
             <Image
               src={props.href}
               alt={props.header}
-              width={560}
+              width={1000}
               height={300}
             />
           </a>

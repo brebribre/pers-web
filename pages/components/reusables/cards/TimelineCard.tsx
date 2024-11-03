@@ -15,8 +15,8 @@ import Tag from '@/pages/components/reusables/Tag';
 
 function TimelineCard(props: CardValue) {
   return (
-    <div className="mb-12 md:grid-cols-8 rounded-lg transform transition duration-300 hover:opacity-50 md:hover:scale-110 lg:hover:scale-110">
-      <div className="p-4 border border-blue-400 rounded-lg shadow sm:max-w-lg">
+    <div className="mt-3 w-full mb-12 md:grid-cols-8 rounded-lg transform transition duration-300 hover:opacity-50 md:hover:scale-110 lg:hover:scale-110">
+      <div className="p-4 border border-blue-400 rounded-lg shadow ">
         <div className="flex items-center gap-2 mb-2">
           {(() => {
             if (props.icon) {
