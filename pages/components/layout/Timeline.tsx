@@ -30,19 +30,19 @@ export default function CustomizedTimeline() {
           <TimelineContent>
             <div className="mb-8">
               <TimelineProjectCard
-                  time="October 2024"
-                  header="Temu Bisnis Indonesia"
-                  desc="A web application platform for selling and buying businesses."
+                  time="February 2025"
+                  header="BonnyAI"
+                  desc="An AI to analyze performances of over 20 e-commerce marketplace in terms of profit, revenue, and quantity sold"
                   tags={[
-                    'Vue.js',
-                    'Tailwind',
-                    'Typescript',
-                    'Flask Python',
+                    'LLM',
                     'MongoDB',
+                    'Database Optimization',
+                    'Flask Python',
+                    'Vue'
                   ]}
                   additional="See Project →"
-                  href="/images/temu-bisnis.png"
-                  link="https://temubisnis.com"
+                  href="/images/temu-bonny.png"
+                  link=""
               />
             </div>
           </TimelineContent>
