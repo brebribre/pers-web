@@ -32,7 +32,7 @@ export default function CustomizedTimeline() {
               <TimelineProjectCard
                   time="February 2025"
                   header="BonnyAI"
-                  desc="An AI Agent that can access MongoDB queries to fetch performance data of over 20 E-Commerce marketplace. Enables ease of financial report and pinpoints bad performance accurately."
+                  desc="An AI Agent that can access MongoDB queries to fetch performance data of over 20 E-Commerce marketplace. Enables ease of financial report and pinpoints bad performance accurately. Also enables chatting with the AI via Telegram."
                   tags={[
                     'LLM',
                     'MongoDB',
