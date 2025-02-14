@@ -37,7 +37,7 @@ function LeftContent() {
               deployed with Vercel.
             </p>
             <p className="text-1xl mt-4 text-blue-300 opacity-50 font-bold ">
-              Copyright © 2023 Bryan Alvin
+              Copyright © 2025 Bryan Alvin
             </p>
           </div>
         </div>
