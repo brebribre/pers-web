@@ -30,6 +30,54 @@ export default function CustomizedTimeline() {
           <TimelineContent>
             <div className="mb-8">
               <TimelineProjectCard
+                  time="October 2024"
+                  header="Temu Bisnis Indonesia"
+                  desc="A web application platform for selling and buying businesses."
+                  tags={[
+                    'Vue.js',
+                    'Tailwind',
+                    'Typescript',
+                    'Flask Python',
+                    'MongoDB',
+                  ]}
+                  additional="See Project →"
+                  href="/images/temu-bisnis.png"
+                  link="https://temubisnis.com"
+              />
+            </div>
+          </TimelineContent>
+        </TimelineItem>
+
+        <TimelineItem>
+          <TimelineOppositeContent></TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <div className="mb-10">
+              <TimelineCard
+                  time="October 2024 - Now"
+                  header="Infineon Technologies"
+                  icon="/images/infineon.png"
+                  subheader="Working Student Full-stack Software Engineer"
+                  desc="I develop an interal website to increase effiency and ease-of-use for simulation workflows."
+                  tags={['Vue', 'Node JS', 'Tailwind CSS', 'Typescript', 'REST API','Three JS']}
+                  additional=""
+                  link=""
+              />
+            </div>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent />
+          <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <div className="mb-8">
+              <TimelineProjectCard
                 time="October 2024"
                 header="Temu Bisnis Indonesia"
                 desc="A web application platform for selling and buying businesses."
@@ -321,7 +369,7 @@ export default function CustomizedTimeline() {
           deployed with Vercel.
         </p>
         <p className="text-1xl mt-4 mb-12 lg:mb-0 text-blue-300 opacity-50 font-bold ">
-          Copyright © 2023 Bryan Alvin
+          Copyright © 2025 Bryan Alvin
         </p>
       </div>
     </div>
