@@ -41,7 +41,7 @@ export default function CustomizedTimeline() {
                     'Vue'
                   ]}
                   additional="See Project →"
-                  href="/images/temu-bonny.png"
+                  href="/images/bonny.png"
                   link=""
               />
             </div>
