@@ -38,6 +38,7 @@ export default function CustomizedTimeline() {
                     'MongoDB',
                     'Database Optimization',
                     'Data processing',
+                    'Telegram Integration',
                     'Flask Python',
                     'Vue'
                   ]}
