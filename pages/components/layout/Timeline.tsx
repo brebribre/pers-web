@@ -32,15 +32,16 @@ export default function CustomizedTimeline() {
               <TimelineProjectCard
                   time="February 2025"
                   header="BonnyAI"
-                  desc="An AI to analyze performances of over 20 e-commerce marketplace in terms of profit, revenue, and quantity sold"
+                  desc="An AI Agent that can access MongoDB queries to fetch performance data of over 20 E-Commerce marketplace. Enables ease of financial report and pinpoints bad performance accurately."
                   tags={[
                     'LLM',
                     'MongoDB',
                     'Database Optimization',
+                    'Data processing',
                     'Flask Python',
                     'Vue'
                   ]}
-                  additional="See Project →"
+                  additional=""
                   href="/images/bonny.png"
                   link=""
               />
