@@ -9,8 +9,8 @@ function LeftContent() {
             Hi, i&apos;m Bryan Alvin
           </h1>
           <p className="mt-4 text-lg text-slate-400 font-normal max-w-lg">
-            B.Sc @TUM Informatics, working student @Infineon and passionate in
-            my journey as a software engineer &#x1f57a;
+            Software Developer @Infineon, M.Sc CS @TUM and passionate in my
+            journey as a software engineer &#x1f57a;
           </p>
 
           <div className="my-4 flex items-center justify-left gap-x-6">
